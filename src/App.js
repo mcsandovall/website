@@ -1,12 +1,13 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/NavBar';
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <h1>My React App</h1>
-      <h2>Author: Mario Sandoval</h2>
+      <NavBar/>
+      <AboutMe/>
     </div>
   );
 }

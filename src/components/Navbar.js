@@ -1,21 +1,24 @@
-import "./Navbar.css";
+import { Navbar, Container, Nav } from "react-bootstrap"
 
-function Navbar() {
+function NavBar() {
     return (
-        <nav>
-            <div className="name">
-                <h3>Mario Sandoval</h3>
-            </div>
-            <div className="nav-links">
-                <ul>
-                    <li><a href="">About Me</a></li>
-                    <li><a href="">Recent Work</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+    <Navbar
+    sticky="top"
+    expand="lg"
+    variant="light"
+    bg="light"
+    >
+        <Container>
+            <Navbar.Brand href="#">Mario Sandoval</Navbar.Brand>
+            <Nav className="justify-content-md-center">
+                <Nav.Link href="#">About Me</Nav.Link>
+                <Nav.Link href="#">Skills</Nav.Link>
+                <Nav.Link href="#">Experience</Nav.Link>
+                <Nav.Link href="#">Projects</Nav.Link>
+            </Nav>
+        </Container>
+    </Navbar>
     );
 }
 
-export default Navbar;
+export default NavBar;
