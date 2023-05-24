@@ -5,10 +5,10 @@ import AboutMe from './components/AboutMe';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar/>
-      <AboutMe/>
-    </div>
+  <>
+    <NavBar/>
+    <AboutMe/>
+  </>
   );
 }
 

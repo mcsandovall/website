@@ -1,19 +1,22 @@
 import headerImg from '../assets/header.JPG'
+import Typed from 'react-typed'
 
 function AboutMe() {
     return (
         <>
         <img src={headerImg} alt="Header Img" className="rounded-4 shadow-4 float-end m-4" style={{width: "100px"}}></img>
 
+        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="black" class="bi bi-chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+        </svg>     
+         
+        <Typed className="typed-text"
+        strings={["Howdy!"]}
+        typeSpeed={60}
+        />
+        
         <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus reiciendis alias asperiores
-        molestiae veniam nihil dolore quaerat libero voluptatibus, officia, ut ea deserunt itaque debitis assumenda,
-        aliquid rerum officiis commodi? Nobis perspiciatis consequatur vero aut, placeat praesentium quam eveniet. A
-        amet provident perferendis fugit, alias beatae unde qui velit dignissimos quidem architecto doloribus maiores
-        quis ut. Eligendi, culpa, repudiandae sint quidem molestiae vero dolor cumque fugit aliquid ipsam voluptates
-        distinctio. Corporis animi laborum nostrum labore similique ullam, optio quidem quae adipisci iste at
-        molestiae, delectus voluptates deleniti sint molestias modi itaque deserunt officiis asperiores aliquam. Vitae
-        nostrum autem animi assumenda!
+            My name is Mario Sandoval, I am a recent graduate from Texas A&M with a Bachelors in Computer Science
         </p>
         </>
     );

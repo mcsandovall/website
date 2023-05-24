@@ -9,8 +9,8 @@ function NavBar() {
     bg="light"
     >
         <Container>
-            <Navbar.Brand href="#">Mario Sandoval</Navbar.Brand>
-            <Nav className="justify-content-md-center">
+            {/* <Navbar.Brand href="#">Mario Sandoval</Navbar.Brand> */}
+            <Nav className="text-center">
                 <Nav.Link href="#">About Me</Nav.Link>
                 <Nav.Link href="#">Skills</Nav.Link>
                 <Nav.Link href="#">Experience</Nav.Link>
